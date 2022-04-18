@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Ch19NewRestaurantTableViewController.saveButtonTapped(sender:):Ch19NewRestaurantTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "appDelegate.persistentContainer.viewContext">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Ch13RestaurantDetailViewController.viewDidLoad():Ch13RestaurantDetailViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Ch20RestaurantTableViewController.viewDidLoad():Ch20RestaurantTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "restaurants">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in Ch11RestaurantTableViewController.configureDataSource(cellID:):Ch11RestaurantTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "restaurant">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

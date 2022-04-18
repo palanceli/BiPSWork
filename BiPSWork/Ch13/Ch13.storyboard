@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="L0X-gl-tpb">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Ch13 Restaurant Table View Controller-->
+        <scene sceneID="w7d-4H-OuD">
+            <objects>
+                <tableViewController id="L0X-gl-tpb" customClass="Ch13RestaurantTableViewController" customModule="BiPSWork" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="SV9-nu-9JV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ch13FavoriteCell" rowHeight="140" id="SI6-ca-i2n" customClass="Ch12RestaurantTableViewCell" customModule="BiPSWork" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="140"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SI6-ca-i2n" id="9md-o4-Yeg">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="GIo-FT-nQp">
+                                            <rect key="frame" x="20" y="11" width="374" height="118"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Lgy-GB-Oll">
+                                                    <rect key="frame" x="0.0" y="0.0" width="120" height="118"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="120" id="FrZ-LY-tO3"/>
+                                                        <constraint firstAttribute="width" constant="120" id="m0t-mP-pqc"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="vCQ-mL-gez">
+                                                    <rect key="frame" x="140" y="26" width="234" height="66"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sh1-U6-uwA">
+                                                            <rect key="frame" x="0.0" y="0.0" width="50" height="23"/>
+                                                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EYL-6W-EJx">
+                                                            <rect key="frame" x="0.0" y="27" width="65.5" height="20.5"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RgJ-aZ-DJw">
+                                                            <rect key="frame" x="0.0" y="51.5" width="28" height="14.5"/>
+                                                            <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                            <color key="textColor" systemColor="systemGrayColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailingMargin" secondItem="GIo-FT-nQp" secondAttribute="trailing" id="PF0-Yc-m8W"/>
+                                        <constraint firstItem="GIo-FT-nQp" firstAttribute="leading" secondItem="9md-o4-Yeg" secondAttribute="leadingMargin" id="iKz-jj-QS4"/>
+                                        <constraint firstItem="GIo-FT-nQp" firstAttribute="top" secondItem="9md-o4-Yeg" secondAttribute="topMargin" id="jor-vX-Qtb"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="GIo-FT-nQp" secondAttribute="bottom" id="wBJ-7N-9hN"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="locationLabel" destination="EYL-6W-EJx" id="Rwm-Hl-43p"/>
+                                    <outlet property="nameLabel" destination="sh1-U6-uwA" id="kWv-Sh-wrp"/>
+                                    <outlet property="thumbnailImageView" destination="Lgy-GB-Oll" id="svB-Jp-YJ9"/>
+                                    <outlet property="typeLabel" destination="RgJ-aZ-DJw" id="uFR-Wk-jPw"/>
+                                    <segue destination="V0S-vb-hwO" kind="show" identifier="Ch13ShowRestaurantDetail" id="Lwt-af-u49"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="L0X-gl-tpb" id="vGf-vS-bnc"/>
+                            <outlet property="delegate" destination="L0X-gl-tpb" id="gBm-Ao-8PD"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="MHr-j8-Gh4"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ekg-uO-Eej" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1776.8115942028987" y="132.58928571428572"/>
+        </scene>
+        <!--Ch13 Restaurant Detail View Controller-->
+        <scene sceneID="PkY-fe-6WN">
+            <objects>
+                <viewController id="V0S-vb-hwO" customClass="Ch13RestaurantDetailViewController" customModule="BiPSWork" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Bxb-34-0TC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="V3p-Xd-Odj">
+                                <rect key="frame" x="0.0" y="44" width="414" height="798"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="MWq-hu-dBs"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="V3p-Xd-Odj" firstAttribute="top" secondItem="MWq-hu-dBs" secondAttribute="top" id="iMt-zB-gwX"/>
+                            <constraint firstItem="MWq-hu-dBs" firstAttribute="trailing" secondItem="V3p-Xd-Odj" secondAttribute="trailing" id="isj-jr-f1t"/>
+                            <constraint firstItem="V3p-Xd-Odj" firstAttribute="leading" secondItem="MWq-hu-dBs" secondAttribute="leading" id="qJR-Za-nXG"/>
+                            <constraint firstItem="MWq-hu-dBs" firstAttribute="bottom" secondItem="V3p-Xd-Odj" secondAttribute="bottom" id="qf1-sH-5I9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="fkx-Pq-mA9"/>
+                    <connections>
+                        <outlet property="restaurantImageView" destination="V3p-Xd-Odj" id="nNW-Se-mLp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vdo-1J-tdq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2535" y="133"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

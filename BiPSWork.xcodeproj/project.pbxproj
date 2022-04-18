@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4D700EE27FB4124003337DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D700ED27FB4124003337DF /* AppDelegate.swift */; };
+		A4D700F027FB4124003337DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D700EF27FB4124003337DF /* SceneDelegate.swift */; };
+		A4D700F527FB4124003337DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D700F327FB4124003337DF /* Main.storyboard */; };
+		A4D700F827FB4124003337DF /* BiPSWork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4D700F627FB4124003337DF /* BiPSWork.xcdatamodeld */; };
+		A4D700FA27FB4126003337DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D700F927FB4126003337DF /* Assets.xcassets */; };
+		A4D700FD27FB4126003337DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D700FB27FB4126003337DF /* LaunchScreen.storyboard */; };
+		A4D7010827FB44FA003337DF /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7010727FB44FA003337DF /* HomeTableViewController.swift */; };
+		A4D7010D27FB48BA003337DF /* ChapterItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7010C27FB48BA003337DF /* ChapterItem.swift */; };
+		A4D7011127FB5155003337DF /* HomeChapterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7011027FB5155003337DF /* HomeChapterTableViewCell.swift */; };
+		A4D7011427FC3DDE003337DF /* Ch03ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7011327FC3DDE003337DF /* Ch03ViewController.swift */; };
+		A4D7011A27FC3F1E003337DF /* Ch03.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D7011827FC3F1E003337DF /* Ch03.storyboard */; };
+		A4D7011E27FC81C3003337DF /* Ch05.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D7011C27FC81C3003337DF /* Ch05.storyboard */; };
+		A4D7012427FC92AF003337DF /* Ch06.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D7012227FC92AF003337DF /* Ch06.storyboard */; };
+		A4D7012727FD64FC003337DF /* Ch08.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D7012627FD64FC003337DF /* Ch08.storyboard */; };
+		A4D7012927FD66FA003337DF /* Ch08ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7012827FD66FA003337DF /* Ch08ViewController.swift */; };
+		A4D7012C27FD6F79003337DF /* ch09.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D7012B27FD6F79003337DF /* ch09.storyboard */; };
+		A4D7012E27FD6FCD003337DF /* Ch09RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7012D27FD6FCD003337DF /* Ch09RestaurantTableViewController.swift */; };
+		A4D7013027FD7DBC003337DF /* Ch09RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7012F27FD7DBC003337DF /* Ch09RestaurantTableViewCell.swift */; };
+		A4D7013327FDE0F6003337DF /* ch10.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D7013227FDE0F6003337DF /* ch10.storyboard */; };
+		A4D7013527FDE2CF003337DF /* Ch10RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7013427FDE2CF003337DF /* Ch10RestaurantTableViewController.swift */; };
+		A4D7013727FDE572003337DF /* Ch10RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7013627FDE572003337DF /* Ch10RestaurantTableViewCell.swift */; };
+		A4D7013A27FF33EC003337DF /* Ch11Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7013927FF33EC003337DF /* Ch11Restaurant.swift */; };
+		A4D7013C27FF3500003337DF /* ch11.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D7013B27FF3500003337DF /* ch11.storyboard */; };
+		A4D7013E27FF3A25003337DF /* Ch11RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7013D27FF3A25003337DF /* Ch11RestaurantTableViewCell.swift */; };
+		A4D7014027FF3A66003337DF /* Ch11RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7013F27FF3A66003337DF /* Ch11RestaurantTableViewController.swift */; };
+		A4D70143280181C4003337DF /* Ch12.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D70142280181C4003337DF /* Ch12.storyboard */; };
+		A4D7014528018280003337DF /* Ch12RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7014428018280003337DF /* Ch12RestaurantTableViewController.swift */; };
+		A4D7014728018481003337DF /* Ch12RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7014628018481003337DF /* Ch12RestaurantTableViewCell.swift */; };
+		A4D701492801A171003337DF /* Ch12RestaurantDiffableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D701482801A171003337DF /* Ch12RestaurantDiffableDataSource.swift */; };
+		A4D7014C280550DE003337DF /* Ch13.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D7014B280550DE003337DF /* Ch13.storyboard */; };
+		A4D7014E280552EA003337DF /* Ch13RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7014D280552EA003337DF /* Ch13RestaurantTableViewController.swift */; };
+		A4D7015328055994003337DF /* Ch13RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7015228055994003337DF /* Ch13RestaurantDetailViewController.swift */; };
+		A4D701562805B8C5003337DF /* Ch14.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D701552805B8C5003337DF /* Ch14.storyboard */; };
+		A4D701582805BC9C003337DF /* Ch14RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D701572805BC9C003337DF /* Ch14RestaurantTableViewController.swift */; };
+		A4D7015A2805CA20003337DF /* Ch14RestaurantDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D701592805CA20003337DF /* Ch14RestaurantDetailHeaderView.swift */; };
+		A4D7015C2805CAF4003337DF /* Ch14RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7015B2805CAF4003337DF /* Ch14RestaurantDetailViewController.swift */; };
+		A4D701612807136C003337DF /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4D7016028071206003337DF /* Nunito-Regular.ttf */; };
+		A4D701622807136C003337DF /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4D7015F28071206003337DF /* Nunito-Bold.ttf */; };
+		A4D7016428071AF7003337DF /* Ch14RestaurantDetailTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7016328071AF7003337DF /* Ch14RestaurantDetailTextCell.swift */; };
+		A4D7016628071C89003337DF /* Ch14RestaurantDetailTwoColumnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7016528071C89003337DF /* Ch14RestaurantDetailTwoColumnCell.swift */; };
+		A4D7016928080507003337DF /* Ch15.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D7016828080507003337DF /* Ch15.storyboard */; };
+		A4D7016B280807A1003337DF /* Ch15RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7016A280807A1003337DF /* Ch15RestaurantTableViewController.swift */; };
+		A4D7016D28082107003337DF /* Ch15RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7016C28082107003337DF /* Ch15RestaurantDetailViewController.swift */; };
+		A4D7016F28086FC8003337DF /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7016E28086FC8003337DF /* NavigationController.swift */; };
+		A4D70172280911A3003337DF /* Ch16.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D70171280911A3003337DF /* Ch16.storyboard */; };
+		A4D701742809134D003337DF /* Ch16RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D701732809134D003337DF /* Ch16RestaurantTableViewController.swift */; };
+		A4D7017628096840003337DF /* Ch16RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7017528096840003337DF /* Ch16RestaurantDetailViewController.swift */; };
+		A4D701792809947F003337DF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D701782809947F003337DF /* MapKit.framework */; };
+		A4D7017B28099543003337DF /* Ch16RestaurantDetailMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7017A28099543003337DF /* Ch16RestaurantDetailMapCell.swift */; };
+		A4D7017D28099A29003337DF /* Ch16MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7017C28099A29003337DF /* Ch16MapViewController.swift */; };
+		A4D701802809BD1E003337DF /* Ch17.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D7017F2809BD1E003337DF /* Ch17.storyboard */; };
+		A4D70182280A6679003337DF /* Ch17RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D70181280A6679003337DF /* Ch17RestaurantTableViewController.swift */; };
+		A4D70184280A69B2003337DF /* Ch17RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D70183280A69B2003337DF /* Ch17RestaurantDetailViewController.swift */; };
+		A4D70186280AC053003337DF /* Ch17ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D70185280AC053003337DF /* Ch17ReviewViewController.swift */; };
+		A4D70188280BBB22003337DF /* Ch17RestaurantDetailHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D70187280BBB22003337DF /* Ch17RestaurantDetailHeaderViewController.swift */; };
+		A4D7018B280BC6EB003337DF /* Ch18.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D7018A280BC6EB003337DF /* Ch18.storyboard */; };
+		A4D7018D280BFE1F003337DF /* Ch18RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7018C280BFE1F003337DF /* Ch18RestaurantTableViewController.swift */; };
+		A4D7018F280C0AB3003337DF /* Ch18RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7018E280C0AB3003337DF /* Ch18RoundedTextField.swift */; };
+		A4D70191280C0BEA003337DF /* Ch18NewRestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D70190280C0BEA003337DF /* Ch18NewRestaurantTableViewController.swift */; };
+		A4D70194280C4ADE003337DF /* Ch19.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D70193280C4ADE003337DF /* Ch19.storyboard */; };
+		A4D70196280C529A003337DF /* Ch19RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D70195280C529A003337DF /* Ch19RestaurantTableViewController.swift */; };
+		A4D7019B280C5398003337DF /* Ch19Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7019A280C5398003337DF /* Ch19Restaurant.swift */; };
+		A4D7019D280C669C003337DF /* Ch19NewRestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7019C280C669C003337DF /* Ch19NewRestaurantTableViewController.swift */; };
+		A4D701A0280D0030003337DF /* Ch20.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D7019F280D0030003337DF /* Ch20.storyboard */; };
+		A4D701A2280D007D003337DF /* Ch20RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D701A1280D007D003337DF /* Ch20RestaurantTableViewController.swift */; };
+		A4D701A4280D08CD003337DF /* Ch20NewRestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D701A3280D08CD003337DF /* Ch20NewRestaurantTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4D700EA27FB4124003337DF /* BiPSWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiPSWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D700ED27FB4124003337DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4D700EF27FB4124003337DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A4D700F427FB4124003337DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4D700F727FB4124003337DF /* BiPSWork.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BiPSWork.xcdatamodel; sourceTree = "<group>"; };
+		A4D700F927FB4126003337DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4D700FC27FB4126003337DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4D700FE27FB4126003337DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D7010727FB44FA003337DF /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		A4D7010C27FB48BA003337DF /* ChapterItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterItem.swift; sourceTree = "<group>"; };
+		A4D7011027FB5155003337DF /* HomeChapterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeChapterTableViewCell.swift; sourceTree = "<group>"; };
+		A4D7011327FC3DDE003337DF /* Ch03ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch03ViewController.swift; sourceTree = "<group>"; };
+		A4D7011927FC3F1E003337DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = BiPSWork/Base.lproj/Ch03.storyboard; sourceTree = "<group>"; };
+		A4D7011D27FC81C3003337DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = BiPSWork/Base.lproj/Ch05.storyboard; sourceTree = "<group>"; };
+		A4D7012327FC92AF003337DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = BiPSWork/Base.lproj/Ch06.storyboard; sourceTree = SOURCE_ROOT; };
+		A4D7012627FD64FC003337DF /* Ch08.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ch08.storyboard; sourceTree = "<group>"; };
+		A4D7012827FD66FA003337DF /* Ch08ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch08ViewController.swift; sourceTree = "<group>"; };
+		A4D7012B27FD6F79003337DF /* ch09.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ch09.storyboard; sourceTree = "<group>"; };
+		A4D7012D27FD6FCD003337DF /* Ch09RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch09RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		A4D7012F27FD7DBC003337DF /* Ch09RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch09RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		A4D7013227FDE0F6003337DF /* ch10.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ch10.storyboard; sourceTree = "<group>"; };
+		A4D7013427FDE2CF003337DF /* Ch10RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch10RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		A4D7013627FDE572003337DF /* Ch10RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch10RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		A4D7013927FF33EC003337DF /* Ch11Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch11Restaurant.swift; sourceTree = "<group>"; };
+		A4D7013B27FF3500003337DF /* ch11.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ch11.storyboard; sourceTree = "<group>"; };
+		A4D7013D27FF3A25003337DF /* Ch11RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch11RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		A4D7013F27FF3A66003337DF /* Ch11RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch11RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		A4D70142280181C4003337DF /* Ch12.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ch12.storyboard; sourceTree = "<group>"; };
+		A4D7014428018280003337DF /* Ch12RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch12RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		A4D7014628018481003337DF /* Ch12RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Ch12RestaurantTableViewCell.swift; path = BiPSWork/Ch12/Ch12RestaurantTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		A4D701482801A171003337DF /* Ch12RestaurantDiffableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch12RestaurantDiffableDataSource.swift; sourceTree = "<group>"; };
+		A4D7014B280550DE003337DF /* Ch13.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ch13.storyboard; sourceTree = "<group>"; };
+		A4D7014D280552EA003337DF /* Ch13RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch13RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		A4D7015228055994003337DF /* Ch13RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch13RestaurantDetailViewController.swift; sourceTree = "<group>"; };
+		A4D701552805B8C5003337DF /* Ch14.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ch14.storyboard; sourceTree = "<group>"; };
+		A4D701572805BC9C003337DF /* Ch14RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch14RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		A4D701592805CA20003337DF /* Ch14RestaurantDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch14RestaurantDetailHeaderView.swift; sourceTree = "<group>"; };
+		A4D7015B2805CAF4003337DF /* Ch14RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Ch14RestaurantDetailViewController.swift; path = BiPSWork/Ch14/Ch14RestaurantDetailViewController.swift; sourceTree = SOURCE_ROOT; };
+		A4D7015F28071206003337DF /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		A4D7016028071206003337DF /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		A4D7016328071AF7003337DF /* Ch14RestaurantDetailTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch14RestaurantDetailTextCell.swift; sourceTree = "<group>"; };
+		A4D7016528071C89003337DF /* Ch14RestaurantDetailTwoColumnCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch14RestaurantDetailTwoColumnCell.swift; sourceTree = "<group>"; };
+		A4D7016828080507003337DF /* Ch15.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ch15.storyboard; sourceTree = "<group>"; };
+		A4D7016A280807A1003337DF /* Ch15RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch15RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		A4D7016C28082107003337DF /* Ch15RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch15RestaurantDetailViewController.swift; sourceTree = "<group>"; };
+		A4D7016E28086FC8003337DF /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		A4D70171280911A3003337DF /* Ch16.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ch16.storyboard; sourceTree = "<group>"; };
+		A4D701732809134D003337DF /* Ch16RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch16RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		A4D7017528096840003337DF /* Ch16RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch16RestaurantDetailViewController.swift; sourceTree = "<group>"; };
+		A4D701782809947F003337DF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A4D7017A28099543003337DF /* Ch16RestaurantDetailMapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch16RestaurantDetailMapCell.swift; sourceTree = "<group>"; };
+		A4D7017C28099A29003337DF /* Ch16MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch16MapViewController.swift; sourceTree = "<group>"; };
+		A4D7017F2809BD1E003337DF /* Ch17.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ch17.storyboard; sourceTree = "<group>"; };
+		A4D70181280A6679003337DF /* Ch17RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Ch17RestaurantTableViewController.swift; path = BiPSWork/Ch17/Ch17RestaurantTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		A4D70183280A69B2003337DF /* Ch17RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Ch17RestaurantDetailViewController.swift; path = BiPSWork/Ch17/Ch17RestaurantDetailViewController.swift; sourceTree = SOURCE_ROOT; };
+		A4D70185280AC053003337DF /* Ch17ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch17ReviewViewController.swift; sourceTree = "<group>"; };
+		A4D70187280BBB22003337DF /* Ch17RestaurantDetailHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Ch17RestaurantDetailHeaderViewController.swift; path = BiPSWork/Ch17/Ch17RestaurantDetailHeaderViewController.swift; sourceTree = SOURCE_ROOT; };
+		A4D7018A280BC6EB003337DF /* Ch18.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ch18.storyboard; sourceTree = "<group>"; };
+		A4D7018C280BFE1F003337DF /* Ch18RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch18RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		A4D7018E280C0AB3003337DF /* Ch18RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch18RoundedTextField.swift; sourceTree = "<group>"; };
+		A4D70190280C0BEA003337DF /* Ch18NewRestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch18NewRestaurantTableViewController.swift; sourceTree = "<group>"; };
+		A4D70193280C4ADE003337DF /* Ch19.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ch19.storyboard; sourceTree = "<group>"; };
+		A4D70195280C529A003337DF /* Ch19RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch19RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		A4D7019A280C5398003337DF /* Ch19Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch19Restaurant.swift; sourceTree = "<group>"; };
+		A4D7019C280C669C003337DF /* Ch19NewRestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch19NewRestaurantTableViewController.swift; sourceTree = "<group>"; };
+		A4D7019F280D0030003337DF /* Ch20.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ch20.storyboard; sourceTree = "<group>"; };
+		A4D701A1280D007D003337DF /* Ch20RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch20RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		A4D701A3280D08CD003337DF /* Ch20NewRestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch20NewRestaurantTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4D700E727FB4124003337DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D701792809947F003337DF /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4D700E127FB4124003337DF = {
+			isa = PBXGroup;
+			children = (
+				A4D700EC27FB4124003337DF /* BiPSWork */,
+				A4D700EB27FB4124003337DF /* Products */,
+				A4D701772809947F003337DF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4D700EB27FB4124003337DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4D700EA27FB4124003337DF /* BiPSWork.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4D700EC27FB4124003337DF /* BiPSWork */ = {
+			isa = PBXGroup;
+			children = (
+				A4D7019E280CF936003337DF /* Ch20 */,
+				A4D70192280C472E003337DF /* Ch19 */,
+				A4D70189280BC6B1003337DF /* Ch18 */,
+				A4D7017E2809BCDB003337DF /* Ch17 */,
+				A4D7017028090EF3003337DF /* Ch16 */,
+				A4D70167280804CB003337DF /* Ch15 */,
+				A4D7015428056486003337DF /* Ch14 */,
+				A4D7014A280550C3003337DF /* Ch13 */,
+				A4D701412801811C003337DF /* Ch12 */,
+				A4D7013827FEC462003337DF /* Ch11 */,
+				A4D7013127FDBE38003337DF /* Ch10 */,
+				A4D7012A27FD6CD8003337DF /* Ch09 */,
+				A4D7012527FC9FB3003337DF /* Ch08 */,
+				A4D7012127FC9275003337DF /* Ch06 */,
+				A4D7011B27FC81AE003337DF /* Ch05 */,
+				A4D7011227FC3DBD003337DF /* Ch03 */,
+				A4D7015D2807115C003337DF /* Resources */,
+				A4D7010627FB4453003337DF /* Home */,
+				A4D700ED27FB4124003337DF /* AppDelegate.swift */,
+				A4D700EF27FB4124003337DF /* SceneDelegate.swift */,
+				A4D700F327FB4124003337DF /* Main.storyboard */,
+				A4D700F927FB4126003337DF /* Assets.xcassets */,
+				A4D700FB27FB4126003337DF /* LaunchScreen.storyboard */,
+				A4D700FE27FB4126003337DF /* Info.plist */,
+				A4D700F627FB4124003337DF /* BiPSWork.xcdatamodeld */,
+			);
+			path = BiPSWork;
+			sourceTree = "<group>";
+		};
+		A4D7010627FB4453003337DF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A4D7010B27FB47AD003337DF /* View */,
+				A4D7010A27FB47A2003337DF /* Controller */,
+				A4D7010927FB478E003337DF /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A4D7010927FB478E003337DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4D7010C27FB48BA003337DF /* ChapterItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4D7010A27FB47A2003337DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4D7016E28086FC8003337DF /* NavigationController.swift */,
+				A4D7010727FB44FA003337DF /* HomeTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4D7010B27FB47AD003337DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4D7011027FB5155003337DF /* HomeChapterTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4D7011227FC3DBD003337DF /* Ch03 */ = {
+			isa = PBXGroup;
+			children = (
+				A4D7011827FC3F1E003337DF /* Ch03.storyboard */,
+				A4D7011327FC3DDE003337DF /* Ch03ViewController.swift */,
+			);
+			path = Ch03;
+			sourceTree = "<group>";
+		};
+		A4D7011B27FC81AE003337DF /* Ch05 */ = {
+			isa = PBXGroup;
+			children = (
+				A4D7011C27FC81C3003337DF /* Ch05.storyboard */,
+			);
+			path = Ch05;
+			sourceTree = "<group>";
+		};
+		A4D7012127FC9275003337DF /* Ch06 */ = {
+			isa = PBXGroup;
+			children = (
+				A4D7012227FC92AF003337DF /* Ch06.storyboard */,
+			);
+			path = Ch06;
+			sourceTree = "<group>";
+		};
+		A4D7012527FC9FB3003337DF /* Ch08 */ = {
+			isa = PBXGroup;
+			children = (
+				A4D7012627FD64FC003337DF /* Ch08.storyboard */,
+				A4D7012827FD66FA003337DF /* Ch08ViewController.swift */,
+			);
+			path = Ch08;
+			sourceTree = "<group>";
+		};
+		A4D7012A27FD6CD8003337DF /* Ch09 */ = {
+			isa = PBXGroup;
+			children = (
+				A4D7012B27FD6F79003337DF /* ch09.storyboard */,
+				A4D7012F27FD7DBC003337DF /* Ch09RestaurantTableViewCell.swift */,
+				A4D7012D27FD6FCD003337DF /* Ch09RestaurantTableViewController.swift */,
+			);
+			path = Ch09;
+			sourceTree = "<group>";
+		};
+		A4D7013127FDBE38003337DF /* Ch10 */ = {
+			isa = PBXGroup;
+			children = (
+				A4D7013227FDE0F6003337DF /* ch10.storyboard */,
+				A4D7013627FDE572003337DF /* Ch10RestaurantTableViewCell.swift */,
+				A4D7013427FDE2CF003337DF /* Ch10RestaurantTableViewController.swift */,
+			);
+			path = Ch10;
+			sourceTree = "<group>";
+		};
+		A4D7013827FEC462003337DF /* Ch11 */ = {
+			isa = PBXGroup;
+			children = (
+				A4D7013B27FF3500003337DF /* ch11.storyboard */,
+				A4D7013F27FF3A66003337DF /* Ch11RestaurantTableViewController.swift */,
+				A4D7013D27FF3A25003337DF /* Ch11RestaurantTableViewCell.swift */,
+				A4D7013927FF33EC003337DF /* Ch11Restaurant.swift */,
+			);
+			path = Ch11;
+			sourceTree = "<group>";
+		};
+		A4D701412801811C003337DF /* Ch12 */ = {
+			isa = PBXGroup;
+			children = (
+				A4D7014428018280003337DF /* Ch12RestaurantTableViewController.swift */,
+				A4D7014628018481003337DF /* Ch12RestaurantTableViewCell.swift */,
+				A4D70142280181C4003337DF /* Ch12.storyboard */,
+				A4D701482801A171003337DF /* Ch12RestaurantDiffableDataSource.swift */,
+			);
+			path = Ch12;
+			sourceTree = "<group>";
+		};
+		A4D7014A280550C3003337DF /* Ch13 */ = {
+			isa = PBXGroup;
+			children = (
+				A4D7015128055947003337DF /* Controller */,
+				A4D7014B280550DE003337DF /* Ch13.storyboard */,
+			);
+			path = Ch13;
+			sourceTree = "<group>";
+		};
+		A4D7015128055947003337DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4D7014D280552EA003337DF /* Ch13RestaurantTableViewController.swift */,
+				A4D7015228055994003337DF /* Ch13RestaurantDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4D7015428056486003337DF /* Ch14 */ = {
+			isa = PBXGroup;
+			children = (
+				A4D701552805B8C5003337DF /* Ch14.storyboard */,
+				A4D7016528071C89003337DF /* Ch14RestaurantDetailTwoColumnCell.swift */,
+				A4D7016328071AF7003337DF /* Ch14RestaurantDetailTextCell.swift */,
+				A4D701592805CA20003337DF /* Ch14RestaurantDetailHeaderView.swift */,
+				A4D701572805BC9C003337DF /* Ch14RestaurantTableViewController.swift */,
+				A4D7015B2805CAF4003337DF /* Ch14RestaurantDetailViewController.swift */,
+			);
+			path = Ch14;
+			sourceTree = "<group>";
+		};
+		A4D7015D2807115C003337DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4D7015E2807116A003337DF /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A4D7015E2807116A003337DF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A4D7015F28071206003337DF /* Nunito-Bold.ttf */,
+				A4D7016028071206003337DF /* Nunito-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A4D70167280804CB003337DF /* Ch15 */ = {
+			isa = PBXGroup;
+			children = (
+				A4D7016828080507003337DF /* Ch15.storyboard */,
+				A4D7016C28082107003337DF /* Ch15RestaurantDetailViewController.swift */,
+				A4D7016A280807A1003337DF /* Ch15RestaurantTableViewController.swift */,
+			);
+			path = Ch15;
+			sourceTree = "<group>";
+		};
+		A4D7017028090EF3003337DF /* Ch16 */ = {
+			isa = PBXGroup;
+			children = (
+				A4D70171280911A3003337DF /* Ch16.storyboard */,
+				A4D7017A28099543003337DF /* Ch16RestaurantDetailMapCell.swift */,
+				A4D7017528096840003337DF /* Ch16RestaurantDetailViewController.swift */,
+				A4D7017C28099A29003337DF /* Ch16MapViewController.swift */,
+				A4D701732809134D003337DF /* Ch16RestaurantTableViewController.swift */,
+			);
+			path = Ch16;
+			sourceTree = "<group>";
+		};
+		A4D701772809947F003337DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4D701782809947F003337DF /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4D7017E2809BCDB003337DF /* Ch17 */ = {
+			isa = PBXGroup;
+			children = (
+				A4D70181280A6679003337DF /* Ch17RestaurantTableViewController.swift */,
+				A4D70183280A69B2003337DF /* Ch17RestaurantDetailViewController.swift */,
+				A4D7017F2809BD1E003337DF /* Ch17.storyboard */,
+				A4D70185280AC053003337DF /* Ch17ReviewViewController.swift */,
+				A4D70187280BBB22003337DF /* Ch17RestaurantDetailHeaderViewController.swift */,
+			);
+			path = Ch17;
+			sourceTree = "<group>";
+		};
+		A4D70189280BC6B1003337DF /* Ch18 */ = {
+			isa = PBXGroup;
+			children = (
+				A4D7018A280BC6EB003337DF /* Ch18.storyboard */,
+				A4D70190280C0BEA003337DF /* Ch18NewRestaurantTableViewController.swift */,
+				A4D7018E280C0AB3003337DF /* Ch18RoundedTextField.swift */,
+				A4D7018C280BFE1F003337DF /* Ch18RestaurantTableViewController.swift */,
+			);
+			path = Ch18;
+			sourceTree = "<group>";
+		};
+		A4D70192280C472E003337DF /* Ch19 */ = {
+			isa = PBXGroup;
+			children = (
+				A4D70193280C4ADE003337DF /* Ch19.storyboard */,
+				A4D7019C280C669C003337DF /* Ch19NewRestaurantTableViewController.swift */,
+				A4D70195280C529A003337DF /* Ch19RestaurantTableViewController.swift */,
+				A4D7019A280C5398003337DF /* Ch19Restaurant.swift */,
+			);
+			path = Ch19;
+			sourceTree = "<group>";
+		};
+		A4D7019E280CF936003337DF /* Ch20 */ = {
+			isa = PBXGroup;
+			children = (
+				A4D7019F280D0030003337DF /* Ch20.storyboard */,
+				A4D701A3280D08CD003337DF /* Ch20NewRestaurantTableViewController.swift */,
+				A4D701A1280D007D003337DF /* Ch20RestaurantTableViewController.swift */,
+			);
+			path = Ch20;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4D700E927FB4124003337DF /* BiPSWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D7010127FB4126003337DF /* Build configuration list for PBXNativeTarget "BiPSWork" */;
+			buildPhases = (
+				A4D700E627FB4124003337DF /* Sources */,
+				A4D700E727FB4124003337DF /* Frameworks */,
+				A4D700E827FB4124003337DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BiPSWork;
+			productName = BiPSWork;
+			productReference = A4D700EA27FB4124003337DF /* BiPSWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4D700E227FB4124003337DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					A4D700E927FB4124003337DF = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = A4D700E527FB4124003337DF /* Build configuration list for PBXProject "BiPSWork" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4D700E127FB4124003337DF;
+			productRefGroup = A4D700EB27FB4124003337DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4D700E927FB4124003337DF /* BiPSWork */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4D700E827FB4124003337DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D7012727FD64FC003337DF /* Ch08.storyboard in Resources */,
+				A4D701622807136C003337DF /* Nunito-Bold.ttf in Resources */,
+				A4D7018B280BC6EB003337DF /* Ch18.storyboard in Resources */,
+				A4D70194280C4ADE003337DF /* Ch19.storyboard in Resources */,
+				A4D7013C27FF3500003337DF /* ch11.storyboard in Resources */,
+				A4D7011A27FC3F1E003337DF /* Ch03.storyboard in Resources */,
+				A4D7012C27FD6F79003337DF /* ch09.storyboard in Resources */,
+				A4D701612807136C003337DF /* Nunito-Regular.ttf in Resources */,
+				A4D70143280181C4003337DF /* Ch12.storyboard in Resources */,
+				A4D7016928080507003337DF /* Ch15.storyboard in Resources */,
+				A4D701562805B8C5003337DF /* Ch14.storyboard in Resources */,
+				A4D701802809BD1E003337DF /* Ch17.storyboard in Resources */,
+				A4D7012427FC92AF003337DF /* Ch06.storyboard in Resources */,
+				A4D701A0280D0030003337DF /* Ch20.storyboard in Resources */,
+				A4D70172280911A3003337DF /* Ch16.storyboard in Resources */,
+				A4D700FD27FB4126003337DF /* LaunchScreen.storyboard in Resources */,
+				A4D7011E27FC81C3003337DF /* Ch05.storyboard in Resources */,
+				A4D7013327FDE0F6003337DF /* ch10.storyboard in Resources */,
+				A4D7014C280550DE003337DF /* Ch13.storyboard in Resources */,
+				A4D700FA27FB4126003337DF /* Assets.xcassets in Resources */,
+				A4D700F527FB4124003337DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4D700E627FB4124003337DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D7013727FDE572003337DF /* Ch10RestaurantTableViewCell.swift in Sources */,
+				A4D7013E27FF3A25003337DF /* Ch11RestaurantTableViewCell.swift in Sources */,
+				A4D7013527FDE2CF003337DF /* Ch10RestaurantTableViewController.swift in Sources */,
+				A4D7016B280807A1003337DF /* Ch15RestaurantTableViewController.swift in Sources */,
+				A4D7010D27FB48BA003337DF /* ChapterItem.swift in Sources */,
+				A4D7019B280C5398003337DF /* Ch19Restaurant.swift in Sources */,
+				A4D7017D28099A29003337DF /* Ch16MapViewController.swift in Sources */,
+				A4D7015C2805CAF4003337DF /* Ch14RestaurantDetailViewController.swift in Sources */,
+				A4D700EE27FB4124003337DF /* AppDelegate.swift in Sources */,
+				A4D700F827FB4124003337DF /* BiPSWork.xcdatamodeld in Sources */,
+				A4D7014027FF3A66003337DF /* Ch11RestaurantTableViewController.swift in Sources */,
+				A4D700F027FB4124003337DF /* SceneDelegate.swift in Sources */,
+				A4D7012E27FD6FCD003337DF /* Ch09RestaurantTableViewController.swift in Sources */,
+				A4D7015A2805CA20003337DF /* Ch14RestaurantDetailHeaderView.swift in Sources */,
+				A4D7010827FB44FA003337DF /* HomeTableViewController.swift in Sources */,
+				A4D7012927FD66FA003337DF /* Ch08ViewController.swift in Sources */,
+				A4D70184280A69B2003337DF /* Ch17RestaurantDetailViewController.swift in Sources */,
+				A4D701582805BC9C003337DF /* Ch14RestaurantTableViewController.swift in Sources */,
+				A4D70191280C0BEA003337DF /* Ch18NewRestaurantTableViewController.swift in Sources */,
+				A4D7019D280C669C003337DF /* Ch19NewRestaurantTableViewController.swift in Sources */,
+				A4D7016628071C89003337DF /* Ch14RestaurantDetailTwoColumnCell.swift in Sources */,
+				A4D7017B28099543003337DF /* Ch16RestaurantDetailMapCell.swift in Sources */,
+				A4D701742809134D003337DF /* Ch16RestaurantTableViewController.swift in Sources */,
+				A4D7011427FC3DDE003337DF /* Ch03ViewController.swift in Sources */,
+				A4D7018F280C0AB3003337DF /* Ch18RoundedTextField.swift in Sources */,
+				A4D7016D28082107003337DF /* Ch15RestaurantDetailViewController.swift in Sources */,
+				A4D7016F28086FC8003337DF /* NavigationController.swift in Sources */,
+				A4D70182280A6679003337DF /* Ch17RestaurantTableViewController.swift in Sources */,
+				A4D7014E280552EA003337DF /* Ch13RestaurantTableViewController.swift in Sources */,
+				A4D701492801A171003337DF /* Ch12RestaurantDiffableDataSource.swift in Sources */,
+				A4D7013027FD7DBC003337DF /* Ch09RestaurantTableViewCell.swift in Sources */,
+				A4D70186280AC053003337DF /* Ch17ReviewViewController.swift in Sources */,
+				A4D7018D280BFE1F003337DF /* Ch18RestaurantTableViewController.swift in Sources */,
+				A4D70188280BBB22003337DF /* Ch17RestaurantDetailHeaderViewController.swift in Sources */,
+				A4D7015328055994003337DF /* Ch13RestaurantDetailViewController.swift in Sources */,
+				A4D7017628096840003337DF /* Ch16RestaurantDetailViewController.swift in Sources */,
+				A4D701A4280D08CD003337DF /* Ch20NewRestaurantTableViewController.swift in Sources */,
+				A4D701A2280D007D003337DF /* Ch20RestaurantTableViewController.swift in Sources */,
+				A4D7011127FB5155003337DF /* HomeChapterTableViewCell.swift in Sources */,
+				A4D7013A27FF33EC003337DF /* Ch11Restaurant.swift in Sources */,
+				A4D7014728018481003337DF /* Ch12RestaurantTableViewCell.swift in Sources */,
+				A4D7016428071AF7003337DF /* Ch14RestaurantDetailTextCell.swift in Sources */,
+				A4D7014528018280003337DF /* Ch12RestaurantTableViewController.swift in Sources */,
+				A4D70196280C529A003337DF /* Ch19RestaurantTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4D700F327FB4124003337DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4D700F427FB4124003337DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4D700FB27FB4126003337DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4D700FC27FB4126003337DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A4D7011827FC3F1E003337DF /* Ch03.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4D7011927FC3F1E003337DF /* Base */,
+			);
+			name = Ch03.storyboard;
+			sourceTree = "<group>";
+		};
+		A4D7011C27FC81C3003337DF /* Ch05.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4D7011D27FC81C3003337DF /* Base */,
+			);
+			name = Ch05.storyboard;
+			sourceTree = "<group>";
+		};
+		A4D7012227FC92AF003337DF /* Ch06.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4D7012327FC92AF003337DF /* Base */,
+			);
+			name = Ch06.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4D700FF27FB4126003337DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4D7010027FB4126003337DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4D7010227FB4126003337DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BiPSWork/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.palanceli.BiPSWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4D7010327FB4126003337DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BiPSWork/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.palanceli.BiPSWork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4D700E527FB4124003337DF /* Build configuration list for PBXProject "BiPSWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D700FF27FB4126003337DF /* Debug */,
+				A4D7010027FB4126003337DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D7010127FB4126003337DF /* Build configuration list for PBXNativeTarget "BiPSWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D7010227FB4126003337DF /* Debug */,
+				A4D7010327FB4126003337DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A4D700F627FB4124003337DF /* BiPSWork.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A4D700F727FB4124003337DF /* BiPSWork.xcdatamodel */,
+			);
+			currentVersion = A4D700F727FB4124003337DF /* BiPSWork.xcdatamodel */;
+			path = BiPSWork.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A4D700E227FB4124003337DF /* Project object */;
+}
