@@ -73,6 +73,10 @@
 		A4D701A0280D0030003337DF /* Ch20.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D7019F280D0030003337DF /* Ch20.storyboard */; };
 		A4D701A2280D007D003337DF /* Ch20RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D701A1280D007D003337DF /* Ch20RestaurantTableViewController.swift */; };
 		A4D701A4280D08CD003337DF /* Ch20NewRestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D701A3280D08CD003337DF /* Ch20NewRestaurantTableViewController.swift */; };
+		F68B8262280D8B150019171F /* Ch21.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68B8261280D8B150019171F /* Ch21.storyboard */; };
+		F68B8264280DAD9E0019171F /* Ch21WalkthroughContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68B8263280DAD9E0019171F /* Ch21WalkthroughContentViewController.swift */; };
+		F68B8266280DAF850019171F /* Ch21WalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68B8265280DAF850019171F /* Ch21WalkthroughPageViewController.swift */; };
+		F68B8268280DB2780019171F /* Ch21WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68B8267280DB2780019171F /* Ch21WalkthroughViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -144,6 +148,10 @@
 		A4D7019F280D0030003337DF /* Ch20.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ch20.storyboard; sourceTree = "<group>"; };
 		A4D701A1280D007D003337DF /* Ch20RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch20RestaurantTableViewController.swift; sourceTree = "<group>"; };
 		A4D701A3280D08CD003337DF /* Ch20NewRestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch20NewRestaurantTableViewController.swift; sourceTree = "<group>"; };
+		F68B8261280D8B150019171F /* Ch21.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Ch21.storyboard; sourceTree = "<group>"; };
+		F68B8263280DAD9E0019171F /* Ch21WalkthroughContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch21WalkthroughContentViewController.swift; sourceTree = "<group>"; };
+		F68B8265280DAF850019171F /* Ch21WalkthroughPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch21WalkthroughPageViewController.swift; sourceTree = "<group>"; };
+		F68B8267280DB2780019171F /* Ch21WalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch21WalkthroughViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +186,7 @@
 		A4D700EC27FB4124003337DF /* BiPSWork */ = {
 			isa = PBXGroup;
 			children = (
+				F68B8260280D8AFE0019171F /* Ch21 */,
 				A4D7019E280CF936003337DF /* Ch20 */,
 				A4D70192280C472E003337DF /* Ch19 */,
 				A4D70189280BC6B1003337DF /* Ch18 */,
@@ -440,6 +449,17 @@
 			path = Ch20;
 			sourceTree = "<group>";
 		};
+		F68B8260280D8AFE0019171F /* Ch21 */ = {
+			isa = PBXGroup;
+			children = (
+				F68B8261280D8B150019171F /* Ch21.storyboard */,
+				F68B8265280DAF850019171F /* Ch21WalkthroughPageViewController.swift */,
+				F68B8263280DAD9E0019171F /* Ch21WalkthroughContentViewController.swift */,
+				F68B8267280DB2780019171F /* Ch21WalkthroughViewController.swift */,
+			);
+			path = Ch21;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -518,6 +538,7 @@
 				A4D7013327FDE0F6003337DF /* ch10.storyboard in Resources */,
 				A4D7014C280550DE003337DF /* Ch13.storyboard in Resources */,
 				A4D700FA27FB4126003337DF /* Assets.xcassets in Resources */,
+				F68B8262280D8B150019171F /* Ch21.storyboard in Resources */,
 				A4D700F527FB4124003337DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -542,6 +563,8 @@
 				A4D7014027FF3A66003337DF /* Ch11RestaurantTableViewController.swift in Sources */,
 				A4D700F027FB4124003337DF /* SceneDelegate.swift in Sources */,
 				A4D7012E27FD6FCD003337DF /* Ch09RestaurantTableViewController.swift in Sources */,
+				F68B8264280DAD9E0019171F /* Ch21WalkthroughContentViewController.swift in Sources */,
+				F68B8266280DAF850019171F /* Ch21WalkthroughPageViewController.swift in Sources */,
 				A4D7015A2805CA20003337DF /* Ch14RestaurantDetailHeaderView.swift in Sources */,
 				A4D7010827FB44FA003337DF /* HomeTableViewController.swift in Sources */,
 				A4D7012927FD66FA003337DF /* Ch08ViewController.swift in Sources */,
@@ -559,6 +582,7 @@
 				A4D70182280A6679003337DF /* Ch17RestaurantTableViewController.swift in Sources */,
 				A4D7014E280552EA003337DF /* Ch13RestaurantTableViewController.swift in Sources */,
 				A4D701492801A171003337DF /* Ch12RestaurantDiffableDataSource.swift in Sources */,
+				F68B8268280DB2780019171F /* Ch21WalkthroughViewController.swift in Sources */,
 				A4D7013027FD7DBC003337DF /* Ch09RestaurantTableViewCell.swift in Sources */,
 				A4D70186280AC053003337DF /* Ch17ReviewViewController.swift in Sources */,
 				A4D7018D280BFE1F003337DF /* Ch18RestaurantTableViewController.swift in Sources */,
