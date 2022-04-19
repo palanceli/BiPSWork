@@ -79,6 +79,8 @@
 		F68B8268280DB2780019171F /* Ch21WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68B8267280DB2780019171F /* Ch21WalkthroughViewController.swift */; };
 		F68B826C280E49220019171F /* Ch22.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68B826B280E49220019171F /* Ch22.storyboard */; };
 		F68B826E280E4A720019171F /* Ch22RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68B826D280E4A720019171F /* Ch22RestaurantTableViewController.swift */; };
+		F68B8270280E7B150019171F /* Ch23AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68B826F280E7B150019171F /* Ch23AboutTableViewController.swift */; };
+		F68B8272280E86990019171F /* Ch23WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68B8271280E86990019171F /* Ch23WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -156,6 +158,8 @@
 		F68B8267280DB2780019171F /* Ch21WalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch21WalkthroughViewController.swift; sourceTree = "<group>"; };
 		F68B826B280E49220019171F /* Ch22.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ch22.storyboard; sourceTree = "<group>"; };
 		F68B826D280E4A720019171F /* Ch22RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch22RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		F68B826F280E7B150019171F /* Ch23AboutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch23AboutTableViewController.swift; sourceTree = "<group>"; };
+		F68B8271280E86990019171F /* Ch23WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch23WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -469,6 +473,8 @@
 			isa = PBXGroup;
 			children = (
 				F68B826B280E49220019171F /* Ch22.storyboard */,
+				F68B8271280E86990019171F /* Ch23WebViewController.swift */,
+				F68B826F280E7B150019171F /* Ch23AboutTableViewController.swift */,
 				F68B826D280E4A720019171F /* Ch22RestaurantTableViewController.swift */,
 			);
 			path = Ch22;
@@ -579,12 +585,14 @@
 				A4D700F027FB4124003337DF /* SceneDelegate.swift in Sources */,
 				A4D7012E27FD6FCD003337DF /* Ch09RestaurantTableViewController.swift in Sources */,
 				F68B8264280DAD9E0019171F /* Ch21WalkthroughContentViewController.swift in Sources */,
+				F68B8270280E7B150019171F /* Ch23AboutTableViewController.swift in Sources */,
 				F68B8266280DAF850019171F /* Ch21WalkthroughPageViewController.swift in Sources */,
 				A4D7015A2805CA20003337DF /* Ch14RestaurantDetailHeaderView.swift in Sources */,
 				A4D7010827FB44FA003337DF /* HomeTableViewController.swift in Sources */,
 				A4D7012927FD66FA003337DF /* Ch08ViewController.swift in Sources */,
 				A4D70184280A69B2003337DF /* Ch17RestaurantDetailViewController.swift in Sources */,
 				A4D701582805BC9C003337DF /* Ch14RestaurantTableViewController.swift in Sources */,
+				F68B8272280E86990019171F /* Ch23WebViewController.swift in Sources */,
 				A4D70191280C0BEA003337DF /* Ch18NewRestaurantTableViewController.swift in Sources */,
 				A4D7019D280C669C003337DF /* Ch19NewRestaurantTableViewController.swift in Sources */,
 				A4D7016628071C89003337DF /* Ch14RestaurantDetailTwoColumnCell.swift in Sources */,
