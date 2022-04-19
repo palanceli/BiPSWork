@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 struct Ch11Restaurant:Hashable{
     enum Rating: String{    // 定义评价的数据类型
@@ -35,6 +36,7 @@ struct Ch11Restaurant:Hashable{
     var type: String
     var location: String
     var image: String
+    var imageData: Data?
     var isFavorite: Bool
     var phone: String = ""
     var description: String = ""
@@ -47,6 +49,7 @@ struct Ch11Restaurant:Hashable{
         self.location = location
         self.image = image
         self.isFavorite = isFavorite
+        self.imageData = UIImage(named: image)?.pngData()
     }
     
     

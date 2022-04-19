@@ -27,6 +27,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().compactAppearance = navBarAppearance
         UINavigationBar.appearance().scrollEdgeAppearance = navBarAppearance
         
+        // 设置TableBar外观
+        let tabBarAppearance = UITabBarAppearance()
+        tabBarAppearance.configureWithDefaultBackground()
+        tabBarAppearance.configureWithTransparentBackground() // 设置透明背景
+        tabBarAppearance.backgroundColor = .darkGray
+        UITabBar.appearance().standardAppearance = tabBarAppearance // 让外观设置生效
+        UITabBar.appearance().tintColor = UIColor.systemRed  // 修改文字颜色
+        
         return true
     }
 

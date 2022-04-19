@@ -77,6 +77,8 @@
 		F68B8264280DAD9E0019171F /* Ch21WalkthroughContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68B8263280DAD9E0019171F /* Ch21WalkthroughContentViewController.swift */; };
 		F68B8266280DAF850019171F /* Ch21WalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68B8265280DAF850019171F /* Ch21WalkthroughPageViewController.swift */; };
 		F68B8268280DB2780019171F /* Ch21WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68B8267280DB2780019171F /* Ch21WalkthroughViewController.swift */; };
+		F68B826C280E49220019171F /* Ch22.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68B826B280E49220019171F /* Ch22.storyboard */; };
+		F68B826E280E4A720019171F /* Ch22RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68B826D280E4A720019171F /* Ch22RestaurantTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -152,6 +154,8 @@
 		F68B8263280DAD9E0019171F /* Ch21WalkthroughContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch21WalkthroughContentViewController.swift; sourceTree = "<group>"; };
 		F68B8265280DAF850019171F /* Ch21WalkthroughPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch21WalkthroughPageViewController.swift; sourceTree = "<group>"; };
 		F68B8267280DB2780019171F /* Ch21WalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch21WalkthroughViewController.swift; sourceTree = "<group>"; };
+		F68B826B280E49220019171F /* Ch22.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ch22.storyboard; sourceTree = "<group>"; };
+		F68B826D280E4A720019171F /* Ch22RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch22RestaurantTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +190,7 @@
 		A4D700EC27FB4124003337DF /* BiPSWork */ = {
 			isa = PBXGroup;
 			children = (
+				F68B826A280E48880019171F /* Ch22 */,
 				F68B8260280D8AFE0019171F /* Ch21 */,
 				A4D7019E280CF936003337DF /* Ch20 */,
 				A4D70192280C472E003337DF /* Ch19 */,
@@ -460,6 +465,15 @@
 			path = Ch21;
 			sourceTree = "<group>";
 		};
+		F68B826A280E48880019171F /* Ch22 */ = {
+			isa = PBXGroup;
+			children = (
+				F68B826B280E49220019171F /* Ch22.storyboard */,
+				F68B826D280E4A720019171F /* Ch22RestaurantTableViewController.swift */,
+			);
+			path = Ch22;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -528,6 +542,7 @@
 				A4D701612807136C003337DF /* Nunito-Regular.ttf in Resources */,
 				A4D70143280181C4003337DF /* Ch12.storyboard in Resources */,
 				A4D7016928080507003337DF /* Ch15.storyboard in Resources */,
+				F68B826C280E49220019171F /* Ch22.storyboard in Resources */,
 				A4D701562805B8C5003337DF /* Ch14.storyboard in Resources */,
 				A4D701802809BD1E003337DF /* Ch17.storyboard in Resources */,
 				A4D7012427FC92AF003337DF /* Ch06.storyboard in Resources */,
@@ -583,6 +598,7 @@
 				A4D7014E280552EA003337DF /* Ch13RestaurantTableViewController.swift in Sources */,
 				A4D701492801A171003337DF /* Ch12RestaurantDiffableDataSource.swift in Sources */,
 				F68B8268280DB2780019171F /* Ch21WalkthroughViewController.swift in Sources */,
+				F68B826E280E4A720019171F /* Ch22RestaurantTableViewController.swift in Sources */,
 				A4D7013027FD7DBC003337DF /* Ch09RestaurantTableViewCell.swift in Sources */,
 				A4D70186280AC053003337DF /* Ch17ReviewViewController.swift in Sources */,
 				A4D7018D280BFE1F003337DF /* Ch18RestaurantTableViewController.swift in Sources */,

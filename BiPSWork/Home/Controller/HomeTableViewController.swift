@@ -98,6 +98,8 @@ class HomeTableViewController: UITableViewController {
             segueID = "showCh20"
         case 16:
             segueID = "showCh21"
+        case 17:
+            segueID = "showCh22"
         default:
             segueID = ""
 

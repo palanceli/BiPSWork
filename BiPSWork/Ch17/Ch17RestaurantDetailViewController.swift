@@ -20,8 +20,13 @@ class Ch17RestaurantDetailViewController: UIViewController {
         
         // 不要表头被系统状态栏顶下去，直接叠加到状态栏上
         tableView.contentInsetAdjustmentBehavior = .never
-        
-        headerView.headerImageView.image = UIImage(named: restaurant.image)
+        if restaurant.image.isEmpty{
+            if let imageData = restaurant.imageData{
+                headerView.headerImageView.image = UIImage(data: imageData)
+            }
+        }else{
+            headerView.headerImageView.image = UIImage(named: restaurant.image)
+        }
         headerView.nameLabel.text = restaurant.name
         headerView.typeLabel.text = restaurant.type
         let heartImage = restaurant.isFavorite ? "heart.fill":"heart"
