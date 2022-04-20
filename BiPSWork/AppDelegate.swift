@@ -35,6 +35,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UITabBar.appearance().standardAppearance = tabBarAppearance // 让外观设置生效
         UITabBar.appearance().tintColor = UIColor.systemRed  // 修改文字颜色
         
+        // 请求通知权限
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { (granted, error) in
+
+            if granted {
+                print("User notifications are allowed.")
+            } else {
+                print("User notifications are not allowed.")
+            }
+        }
+        
+        // 设置处理通知的代理端为自己
+        UNUserNotificationCenter.current().delegate = self
+        
         return true
     }
 
@@ -99,3 +112,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+extension AppDelegate: UNUserNotificationCenterDelegate {
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        // 如果是从用户通知的“预定”行动点过来
+        if response.actionIdentifier == "foodpin.makeReservation" {
+            print("Make reservation...")
+            // 拿到电话号码，并拨打电话
+            if let phone = response.notification.request.content.userInfo["phone"] {
+                let telURL = "tel://\(phone)"
+                if let url = URL(string: telURL) {
+                    if UIApplication.shared.canOpenURL(url) {
+                        print("calling \(telURL)")
+                        UIApplication.shared.open(url)
+                    }
+                }
+            }
+        }
+
+        completionHandler()
+    }
+}

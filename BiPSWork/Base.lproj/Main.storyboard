@@ -92,6 +92,7 @@
                         <segue destination="mIX-fb-rN3" kind="show" identifier="showCh20" id="AlV-0v-krW"/>
                         <segue destination="UGX-zz-peM" kind="show" identifier="showCh21" id="Tto-Si-dZw"/>
                         <segue destination="XsD-cV-LFv" kind="show" identifier="showCh22" id="gT3-Pu-uTD"/>
+                        <segue destination="Y6g-iK-qbe" kind="show" identifier="showCh30" id="U1r-Ze-xHy"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hOP-4U-l7U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -294,7 +295,17 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cyy-Ok-k3k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1280" y="121"/>
+            <point key="canvasLocation" x="1278" y="27"/>
+        </scene>
+        <!--Ch30-->
+        <scene sceneID="uBd-pU-h4o">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Ch30" id="Y6g-iK-qbe" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="dxZ-Cd-1W8"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TFp-nE-AW9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1554" y="44"/>
         </scene>
     </scenes>
     <resources>

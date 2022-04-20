@@ -41,8 +41,8 @@ class ChapterFactory{
         ChapterItem(title: "19 使用Core Data", description: "", image: "HomeItem-Ch19"),
         ChapterItem(title: "20 搜索栏和 UISearchController", description: "", image: "HomeItem-Ch20"),
         ChapterItem(title: "21 构建向导页", description: "使用UIPageViewController and Container Views构建向导页", image: "HomeItem-Ch21"),
-        ChapterItem(title: "22 Tab Bar Controller探索 和 Storyboard", description: "", image: "HomeItem-Ch22"),
-        ChapterItem(title: "23 使用WKWebView和SFSafariViewController", description: "", image: "HomeItem-Ch23"),
+        ChapterItem(title: "22&23 Tab Bar Controller探索 & 使用WKWebView和SFSafariViewController", description: "", image: "HomeItem-Ch22"),
+        ChapterItem(title: "30 用户通知", description: "每隔一段时间向用户弹出通知，并允许做简单交互", image: "HomeItem-Ch30"),
     ]
     
     func getItems()->[ChapterItem]{
